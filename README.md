@@ -15,6 +15,9 @@ Open the `src/index.html` file in your browser.
 Requirement: [Node.js](https://nodejs.org/)
 
 ```shell
+# test - do you even have Node/NPM installed?
+npm --version
+
 # install the libraries to make the project's developer tools work
 npm install
 
@@ -24,4 +27,4 @@ npm run-script lint
 
 ### More Information
 
-[Refer to the DMIT1529-BASE-PROJECT.md file for more information.](./DMIT1529-BASE-PROJECT.md)
+[Refer to the READ MORE file for more information.](./READMORE.md)
