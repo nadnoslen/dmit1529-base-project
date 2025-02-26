@@ -7,10 +7,9 @@ This is a basic html+css+js base project. Use a copy of it to create all your ne
 Here's a summary of what makes this project special:
 
 - ✅ It places all code inside a `src` directory -> get used to it
-- ✅ It has been initialised as a git repository -> this will make more sense later in life
 - ✅ It has an ESLint configuration file (`eslint.config.mjs`) -> rules for analysing javascript files
 - ✅ It has an HTMLHint configuration file (`.htmlhintrc`) -> rules for analysing html files
-- ✅ It has a StyleLint configuration file (`.stylelintrc.json`) -> rules for analyszing css files
+- ✅ It has a StyleLint configuration file (`.stylelintrc.json`) -> rules for analysing css files
 - ✅ It has a Prettier configuration file (`.prettierrc.yml`) -> rules for formatting your files
 
 ## Getting Started
@@ -38,6 +37,12 @@ You can always visit the Extension panel and search for `@recommended` to see th
 ### Running Prettier
 
 Prettier is a code formatter for your project.
+
+Check out prettier's configuration reference here: https://prettier.io/docs/options.html
+
+You can configure prettier for this project via the `.prettierrc.yml` file.
+
+#### Prettier + VS Code
 
 This project explicitly tells VS Code:
 
@@ -100,9 +105,3 @@ CSS static analysis. Helps avoid common errors in your style definitions.
 Check out the rules reference here: https://stylelint.io/user-guide/rules
 
 You can configure rules for your project in the `.stylelintrc.yml` file.
-
-## Code Formatting
-
-### Prettier
-
-An opinionated code formatter.
