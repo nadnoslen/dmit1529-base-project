@@ -8,9 +8,10 @@ Here's a summary of what makes this project special:
 
 - ✅ It places all code inside a `src` directory -> get used to it
 - ✅ It has been initialised as a git repository -> this will make more sense later in life
-- ✅ It has an HTMLHint configuration file (`.htmlhintrc`) ->
-- ✅ It has a StyleLint configuration file (`.stylelintrc.json`)
-- ✅ It has a Prettier configuration file ()
+- ✅ It has an ESLint configuration file (`eslint.config.mjs`) -> rules for analysing javascript files
+- ✅ It has an HTMLHint configuration file (`.htmlhintrc`) -> rules for analysing html files
+- ✅ It has a StyleLint configuration file (`.stylelintrc.json`) -> rules for analyszing css files
+- ✅ It has a Prettier configuration file (`.prettierrc.yml`) -> rules for formatting your files
 
 ## Getting Started
 
