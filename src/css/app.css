@@ -1,0 +1,14 @@
+html {
+  font-size: 100%;
+}
+
+/* Feel free to clear this file and start from scratch. */
+/* This .link is for demo purposes */
+.link {
+  color: #0ea5e9;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dmit1529-base-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "lint": "concurrently \"npm run lint:css\" \"npm run lint:html\" \"npm run lint:js\"",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:html": "htmlhint 'src/**/*.html'",
+    "lint:js": "eslint 'src/**/*.js'",
+    "prettier:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "concurrently": "^9.1.2",
+    "eslint": "^8.57.1",
+    "globals": "^16.0.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.5.2",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}

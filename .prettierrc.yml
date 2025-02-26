@@ -1,0 +1,18 @@
+# Default options accepted unless otherwise overridden below - https://prettier.io/docs/en/options.html
+
+# overriding printWidth, default is 80
+# see https://prettier.io/docs/en/options.html#print-width
+printWidth: 120
+
+# overriding singleQuote, default is false
+# see https://prettier.io/docs/en/options.html#quotes
+singleQuote: true
+
+overrides:
+  # overriding singleQuote for all yaml/yml files - double quote preferred
+  # see https://prettier.io/docs/en/options.html#quotes
+  - files:
+      - "**/*.yaml"
+      - "**/*.yml"
+    options:
+      singleQuote: false # double-quotes preferred in yaml/yml
