@@ -38,9 +38,20 @@ You can always visit the Extension panel and search for `@recommended` to see th
 
 Prettier is a code formatter for your project.
 
-```shell
+This project explicitly tells VS Code:
+
+1. Format files with Prettier.
+1. Format your files automatically when you save.
+1. Save will a slight delay if you leave the VS Code app or visit another file.
+
+#### Running Prettier Script
+
+````shell
 # reports the files that need to be re-formatted
 npm run-script prettier:check
+
+# formats all files in the project (if they need it)
+npm run-script prettier:write
 ```
 
 ### Running The Static Analysis Scripts Individually
@@ -54,7 +65,7 @@ npm run-script lint:html
 
 # static analysis of your javascript file(s)
 npm run-script lint:js
-```
+````
 
 ### Running ALL Static Analysis Scripts Concurrently
 
